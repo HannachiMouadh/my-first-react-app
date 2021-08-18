@@ -3,14 +3,20 @@ import React from 'react';
 
 function App() {
   return (
-      <div className="mm">
-       <p>sfsdsds</p> <input type="text" className="input-group input-group-lg"></input>
-       <p>sfsdsds</p> <input type="text" className="input-group input-group-lg"></input>
-       <p>sfsdsds</p><input type="text" className="input-group input-group-lg"></input>
-       <p>sfsdsds</p><input type="text" className="input-group input-group-lg"></input>   
-      <div className="bt"><button type="button" className="btn btn-outline-secondary cent ">Button</button></div>
-      </div>
+    <div>
+    <div style={{border:"solid 1px black",maxWidth:"100vw"}}>
+    <h1 style={{display: 'flex', justifyContent:'center', alignItems:'center'}} className="title red">Hannachi Mouadh</h1>
     
+    <br/>
+    <img style={{ maxWidth:"100%",maxHeight:"100%"}} src='/assets/imageInSrc.jpg' alt="elefant"></img>
+    </div>
+       <br/>
+    <img src="/assets/imageInPublic.jpg" alt="elefant"></img>
+   
+   <video width="320" height="240" controls>
+    <source src="myVideo.mp4" type="video/mp4" ></source>
+   </video>
+   </div>
   );
 }
 
